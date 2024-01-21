@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(183, 177, 177);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    margin-left: 30px;
+    width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  background-color: rgb(228, 226, 226);
+  border: 1px solid #2a2a2a;
+  border-radius: 5px;
+}
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+}
+
+.input {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #a2a2a2;
+}
+.input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+  font-size: 16px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 10px 0 5px 0px;
+}

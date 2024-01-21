@@ -1,0 +1,92 @@
+
+ol{
+  padding: 0;
+}
+.container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  background-color: rgb(228, 226, 226);
+  border: 1px solid #2a2a2a;
+  border-radius: 5px;
+}
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+}
+
+.formLabel {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 0 5px 0px;
+}
+
+
+.input {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #a2a2a2;
+}
+.input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper{
+    display: flex;
+flex-direction: column;    
+}
+
+
+.btn {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px 0px;
+  width: fit-content;
+  padding: 5px 10px;
+  align-items: center;
+  border: 1px solid #a2a2a2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(146, 152, 162);
+  color: aliceblue;
+}
+
+.btnDelete {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 2px 2px;
+  border: 1px solid #a2a2a2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnDelete:hover {
+  background-color: rgb(146, 152, 162);
+  color: aliceblue;
+}
+
+.customList {
+List-style-type: none;
+  min-height: 340px;
+}
+
+.customList li {
+  position: relative;
+  padding-left: 0px; 
+  margin-bottom: 10px; 
+  display: flex; 
+  align-items: center;
+}
+
+.customList li:before {
+  content: '\2022'; 
+  font-size: 24px; 
+  margin-right: 10px; 
+  line-height: 1; 
+}
+.listWrapper{
+    width: 170px;
+ 
+}
