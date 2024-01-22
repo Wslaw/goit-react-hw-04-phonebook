@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { nanoid } from 'nanoid';
 import styles from './phonebook.module.css';
 import ContactForm from './ContactForm/ContactForm';
