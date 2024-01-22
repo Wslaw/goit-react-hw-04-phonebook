@@ -8,10 +8,10 @@ import BackImage from '../forest.jpg';
 const Phonebook = () => {
   const [phonebookState, setPhonebookState] = useState({
     contacts: [
-      { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
-      { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
-      { id: 'id-3', name: 'Eden Clements', number: '645-17-79' },
-      { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
+      // { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
+      // { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
+      // { id: 'id-3', name: 'Eden Clements', number: '645-17-79' },
+      // { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
     ],
     name: '',
     number: '',
@@ -59,8 +59,10 @@ const Phonebook = () => {
     }
 
     setPhonebookState(prev => {
-      const newContact = { id: nanoid(), ...data };
-
+      const newContact = {
+         id: nanoid(),
+         ...data };
+// console.log(newContact);
       return { ...prev, contacts: [...prev.contacts, newContact] };
     });
   };
